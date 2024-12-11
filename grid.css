@@ -1,0 +1,39 @@
+
+ body{
+    background-color: rgb(226, 226, 226);
+ }
+ h1 ,p{
+   text-transform: capitalize;
+    text-align: center;
+ padding-top: 25px;
+   
+ }
+ .container{
+    display: grid;
+    grid-template-columns:  180px 180px 180px 180px;
+     column-gap: 20px;
+    /* row-gap: 20px;  */
+    justify-content: center;
+   
+
+ }
+
+ .box{
+    background-color: white;
+    
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;  
+    box-shadow:  1px  5px black;
+ }
+
+  
+
+  .container i{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 20px;
+  
+
+ }
